@@ -6,8 +6,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Miguel!");
 
-        System.out.println("hola david");
-
         System.out.println("El area de un cuadrado de lado 45 es: " + areaCuadrado(45.0));
         System.out.println("El area de un rectangulo de base 57 y altura 85 es: " + areaRectángulo(57d,85d));
     }
