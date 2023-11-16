@@ -25,4 +25,20 @@ public class Main {
     public static BigDecimal pentagono(BigDecimal apotema, BigDecimal lado){
         return ((lado.multiply(BigDecimal.valueOf(5))).multiply(apotema)).divide(BigDecimal.TWO);
     }
+
+    public static Double areaCuadrado(Double lado){
+        Double Area;
+
+        Area = lado * lado;
+
+        return Area;
+    }
+
+    public static Double areaRectángulo(Double Altura, Double Base) {
+        Double Area;
+
+        Area = Altura * Base;
+
+        return Area;
+    }
 }
